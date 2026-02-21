@@ -2,9 +2,6 @@ import os
 import requests
 import json
 
-# Option A choose kiya kyunki yeh directly test failures ko explain karta hai
-# aur developer ko turant actionable feedback deta hai bina logs manually padhne ke.
-# Option B (Flaky Classifier) ke liye bahut saare test runs ka data chahiye hota.
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
