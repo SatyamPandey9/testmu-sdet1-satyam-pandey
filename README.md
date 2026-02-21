@@ -53,9 +53,3 @@ When a test fails, the framework automatically:
 2. Sends it to Claude API
 3. Gets plain English explanation with root cause and fix
 4. Saves full report to reports/ai_failure_report.json
-
-## What I'd Build Next
-- CI/CD pipeline with GitHub Actions
-- Screenshot capture on failure
-- Slack notification with AI explanation
-- More edge case coverage
